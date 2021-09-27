@@ -1,0 +1,7 @@
+app_test_number:
+  path: /test/number
+  controller: App\Controller\TestController::number
+
+authentication_token:
+  path: /authentication_token
+  methods: [ 'POST' ]
